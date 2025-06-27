@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kopi Medan - Cita Rasa Nusantara</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Kopi Medan</h1>
+    <p>Cita Rasa Nusantara yang Autentik</p>
+  </header>
+
+  <section class="hero">
+    <img src="images/download.jpg" alt="Kopi Medan" />
+    <h2>Kenali Keistimewaan Kopi Medan</h2>
+    <p>Kopi Medan memiliki cita rasa yang kuat, aromatik, dan membuat ketagihan.</p>
+  </section>
+
+  <section class="menu">
+    <h2>Menu Andalan</h2>
+    <div class="menu-item">
+      <img src="images/download (1).jpg" alt="Espresso Medan" />
+      <h3>Espresso Medan</h3>
+      <p>Rasa kuat dan pekat, cocok untuk penikmat kopi sejati.</p>
+    </div>
+    <div class="menu-item">
+      <img src="images/download.jpg" alt="Cappuccino Medan" />
+      <h3>Cappuccino Medan</h3>
+      <p>Perpaduan kopi dan susu yang creamy dengan cita rasa lokal.</p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Pesan Sekarang</h2>
+    <form id="orderForm">
+      <label>Nama:</label><br/>
+      <input type="text" name="nama" required /><br/>
+      <label>Menu Pilihan:</label><br/>
+      <select name="menu">
+        <option>Espresso Medan</option>
+        <option>Cappuccino Medan</option>
+      </select><br/>
+      <label>Jumlah:</label><br/>
+      <input type="number" name="jumlah" min="1" required /><br/>
+      <button type="submit">Kirim Pesanan</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Kopi Medan. All rights reserved.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

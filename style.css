@@ -1,0 +1,49 @@
+document.getElementById("orderForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  alert("Terima kasih sudah memesan! Kami akan segera menghubungi Anda.");
+});
+header {
+  text-align: center;
+}
+
+.hero {
+  text-align: center;
+}
+
+.menu h2 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
+.menu {
+  text-align: center;
+}
+
+.menu-item {
+  display: inline-block;
+  text-align: center;
+  margin: 1rem;
+}
+
+.menu-item img {
+  max-width: 200px;
+  border-radius: 8px;
+}
+
+.hero img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 12px;
+}
+header {
+  background-color: #5b3a29;  /* opsional supaya lebih cantik */
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+header h1, header p {
+  margin: 0.5rem 0;
+}
